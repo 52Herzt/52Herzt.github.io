@@ -1,0 +1,3 @@
+<div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">Say 'Hello World'!</span>
+        </div>
