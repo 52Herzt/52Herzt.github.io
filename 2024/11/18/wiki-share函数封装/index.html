@@ -13,17 +13,22 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/archives/2024/"/>
+    <link rel="canonical" href="http://example.com/2024/11/18/wiki-share函数封装/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     
-        <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2024/index.html">
+        <meta name="description" content="1. 社交媒体分享社交媒体分享是一个比较常见的需求,但是自己去一个个查找各大平台的分享 API 链接又比较麻烦,所以封装了真么一个工具函数来实现一键分享 2. 社交媒体 API 集合123456789const networks &#x3D; &#123;  email: &quot;mailto:?subject&#x3D;@t&amp;body&#x3D;@u%0D%0A@d&quot;,  facebook: &amp;quot">
+<meta property="og:type" content="article">
+<meta property="og:title" content="5分钟封装一个主流社交平台工具函数!">
+<meta property="og:url" content="http://example.com/2024/11/18/wiki-share%E5%87%BD%E6%95%B0%E5%B0%81%E8%A3%85/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1. 社交媒体分享社交媒体分享是一个比较常见的需求,但是自己去一个个查找各大平台的分享 API 链接又比较麻烦,所以封装了真么一个工具函数来实现一键分享 2. 社交媒体 API 集合123456789const networks &#x3D; &#123;  email: &quot;mailto:?subject&#x3D;@t&amp;body&#x3D;@u%0D%0A@d&quot;,  facebook: &amp;quot">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2024-11-18T07:07:29.000Z">
+<meta property="article:modified_time" content="2024-11-18T07:54:31.699Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="教程">
 <meta name="twitter:card" content="summary">
     
     
@@ -36,7 +41,7 @@
     
     <title>
         
-            Archive: 2024 | 17mc.top
+            5分钟封装一个主流社交平台工具函数! | 17mc.top
         
     </title>
 
@@ -313,7 +318,7 @@
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class="active"
+                                <a class=""
                                    href="/archives"
                                         >
                                     <i class="fa-regular fa-archive fa-fw"></i>
@@ -419,7 +424,7 @@
 
                     <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
                         
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
                            href="/archives"
                         >
                             <span>
@@ -513,59 +518,241 @@
             <div class="main-content">
 
                 
-                    <div class="archive-container shadow-none hover:shadow-none sm:shadow-redefine sm:hover:shadow-redefine-hover">
-    
-<div class="archive-list-container">
-    
-        <section class="archive-item mb-spacing-unit last:mb-0">
-            <div class="archive-item-header flex flex-row items-center mb-2">
-                <span class="archive-year font-semibold text-3xl mr-2">2024</span>
-                <span class="archive-year-post-count text-xs md:text-sm font-bold rounded-small bg-third-background-color py-[2px] px-[10px] border border-border-color">3</span>
-            </div>
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
             
-            <ul class="article-list pl-0 md:pl-8 text-lg leading-[1.5]">
+                <div class="w-full flex items-center pt-6 justify-start">
+                    <h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">5分钟封装一个主流社交平台工具函数!</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="/image/logo.jpg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">17</span>
+                        
+                            <span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Max</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-11-18 15:07:29</span>
+        <span class="mobile">2024-11-18 15:07:29</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-11-18 15:54:31</span>
+            <span class="mobile">2024-11-18 15:54:31</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
                 
-                    
-                    
-                         <!-- Close the previous LI if not the first item -->
-                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='11-18'>
-                    
-                    <a href="/2024/11/18/wiki-share%E5%87%BD%E6%95%B0%E5%B0%81%E8%A3%85/" class="block w-fit">
-                        <span class="article-title my-0.5 text-2xl">5分钟封装一个主流社交平台工具函数!</span>
-                    </a>
-                    
                 
-                    
                     
                         
-                            </li>
-                         <!-- Close the previous LI if not the first item -->
-                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='11-15'>
+                        <li>
+                            <a href="/categories/wiki/">wiki</a>&nbsp;
+                        </li>
                     
-                    <a href="/2024/11/15/wiki-githubPages-1/" class="block w-fit">
-                        <span class="article-title my-0.5 text-2xl">5分钟部署一个Github Pages站点!</span>
-                    </a>
                     
                 
-                    
-                    
-                        
-                            </li>
-                         <!-- Close the previous LI if not the first item -->
-                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='11-11'>
-                    
-                    <a href="/2024/11/11/hello-world/" class="block w-fit">
-                        <span class="article-title my-0.5 text-2xl">Hello World</span>
-                    </a>
-                    
-                
-                </li> <!-- Ensure the last item is properly closed -->
             </ul>
-        </section>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E6%95%99%E7%A8%8B/">教程</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>516 Words</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>2 Mins</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
     
 </div>
 
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <h2 id="1-社交媒体分享"><a href="#1-社交媒体分享" class="headerlink" title="1. 社交媒体分享"></a>1. 社交媒体分享</h2><p>社交媒体分享是一个比较常见的需求,但是自己去一个个查找各大平台的分享 API 链接又比较麻烦,所以封装了真么一个工具函数来实现一键分享</p>
+<h2 id="2-社交媒体-API-集合"><a href="#2-社交媒体-API-集合" class="headerlink" title="2. 社交媒体 API 集合"></a>2. 社交媒体 API 集合</h2><div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> networks = &#123;</span><br><span class="line">  <span class="attr">email</span>: <span class="string">&quot;mailto:?subject=@t&amp;body=@u%0D%0A@d&quot;</span>,</span><br><span class="line">  <span class="attr">facebook</span>: <span class="string">&quot;https://www.facebook.com/sharer/sharer.php?u=@u&amp;title=@t&amp;description=@d&amp;quote=@q&amp;hashtag=@h&quot;</span>,</span><br><span class="line">  <span class="attr">sms</span>: <span class="string">&quot;sms:?body=@t%0D%0A@u%0D%0A@d&quot;</span>,</span><br><span class="line">  <span class="attr">telegram</span>: <span class="string">&quot;https://t.me/share/url?url=@u&amp;text=@t%0D%0A@d&quot;</span>,</span><br><span class="line">  <span class="attr">twitter</span>: <span class="string">&quot;https://twitter.com/intent/tweet?text=@t&amp;url=@u&amp;hashtags=@h@tu&quot;</span>,</span><br><span class="line">  <span class="attr">whatsapp</span>: <span class="string">&quot;https://api.whatsapp.com/send?text=@t%0D%0A@u%0D%0A@d&quot;</span>,</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">// 链接中的 &#x27;@*&#x27; 作为占位符后续使用正则替换为分享内容</span></span><br></pre></td></tr></table></figure></div>
+
+<h2 id="3-工具函数封装"><a href="#3-工具函数封装" class="headerlink" title="3. 工具函数封装"></a>3. 工具函数封装</h2><div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> &#123;<span class="type">*</span>&#125; network 需要分享的社交平台</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> &#123;<span class="type">*</span>&#125; url 分享链接</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> &#123;<span class="type">*</span>&#125; context 分享内容</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> &#123;<span class="type">*</span>&#125; option 特定平台可添加附加内容</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="keyword">function</span> <span class="title function_">share</span>(<span class="params"></span></span><br><span class="line"><span class="params">  network,</span></span><br><span class="line"><span class="params">  url,</span></span><br><span class="line"><span class="params">  context,</span></span><br><span class="line"><span class="params">  option = &#123;</span></span><br><span class="line"><span class="params">    twitterUser: <span class="string">&quot;&quot;</span>,</span></span><br><span class="line"><span class="params">    description: <span class="string">&quot;&quot;</span>,</span></span><br><span class="line"><span class="params">    quote: <span class="string">&quot;&quot;</span>,</span></span><br><span class="line"><span class="params">    encodedHashtags: <span class="string">&quot;&quot;</span>,</span></span><br><span class="line"><span class="params">    media: <span class="string">&quot;&quot;</span>,</span></span><br><span class="line"><span class="params">  &#125;</span></span><br><span class="line"><span class="params"></span>) &#123;</span><br><span class="line">  <span class="keyword">let</span> ua = navigator.<span class="property">userAgent</span>.<span class="title function_">toLowerCase</span>();</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> key = network.<span class="title function_">toLowerCase</span>();</span><br><span class="line"></span><br><span class="line">  <span class="comment">/**</span></span><br><span class="line"><span class="comment">   * On IOS, SMS sharing link need a special formatting</span></span><br><span class="line"><span class="comment">   * Source: https://weblog.west-wind.com/posts/2013/Oct/09/Prefilling-an-SMS-on-Mobile-Devices-with-the-sms-Uri-Scheme#Body-only</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="keyword">if</span> (key === <span class="string">&quot;sms&quot;</span> &amp;&amp; (ua.<span class="title function_">indexOf</span>(<span class="string">&quot;iphone&quot;</span>) &gt; -<span class="number">1</span> || ua.<span class="title function_">indexOf</span>(<span class="string">&quot;ipad&quot;</span>) &gt; -<span class="number">1</span>)) &#123;</span><br><span class="line">    networks[key].<span class="title function_">replace</span>(<span class="string">&quot;:?&quot;</span>, <span class="string">&quot;:&amp;&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">let</span> link = networks[key];</span><br><span class="line"></span><br><span class="line">  <span class="comment">/**</span></span><br><span class="line"><span class="comment">   * Twitter sharing shouldn&#x27;t include empty parameter</span></span><br><span class="line"><span class="comment">   * Source: https://github.com/nicolasbeauvais/vue-social-sharing/issues/143</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="keyword">if</span> (key === <span class="string">&quot;twitter&quot;</span>) &#123;</span><br><span class="line">    link = link.<span class="title function_">replace</span>(<span class="string">&quot;&amp;hashtags=@h&quot;</span>, <span class="string">&quot;&quot;</span>).<span class="title function_">replace</span>(<span class="string">&quot;@tu&quot;</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  link = link</span><br><span class="line">    .<span class="title function_">replace</span>(<span class="regexp">/@tu/g</span>, <span class="string">&quot;&amp;via=&quot;</span> + <span class="built_in">encodeURIComponent</span>(option.<span class="property">twitterUser</span>))</span><br><span class="line">    .<span class="title function_">replace</span>(<span class="regexp">/@u/g</span>, <span class="built_in">encodeURIComponent</span>(url))</span><br><span class="line">    .<span class="title function_">replace</span>(<span class="regexp">/@t/g</span>, <span class="built_in">encodeURIComponent</span>(context))</span><br><span class="line">    .<span class="title function_">replace</span>(<span class="regexp">/@d/g</span>, <span class="built_in">encodeURIComponent</span>(option.<span class="property">description</span>))</span><br><span class="line">    .<span class="title function_">replace</span>(<span class="regexp">/@q/g</span>, <span class="built_in">encodeURIComponent</span>(option.<span class="property">quote</span>))</span><br><span class="line">    .<span class="title function_">replace</span>(<span class="regexp">/@h/g</span>, option.<span class="property">encodedHashtags</span>)</span><br><span class="line">    .<span class="title function_">replace</span>(<span class="regexp">/@m/g</span>, <span class="built_in">encodeURIComponent</span>(option.<span class="property">media</span>));</span><br><span class="line"></span><br><span class="line">  <span class="comment">/**</span></span><br><span class="line"><span class="comment">   * 如果是 IOS 在当前页打开,避免出现空白页签</span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="keyword">if</span> (ua.<span class="title function_">indexOf</span>(<span class="string">&quot;iphone&quot;</span>) &gt; -<span class="number">1</span> || ua.<span class="title function_">indexOf</span>(<span class="string">&quot;ipad&quot;</span>) &gt; -<span class="number">1</span>) &#123;</span><br><span class="line">    <span class="variable language_">window</span>.<span class="property">location</span>.<span class="property">href</span> = link;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="variable language_">window</span>.<span class="title function_">open</span>(link, <span class="string">&quot;sharer-&quot;</span> + key, <span class="string">&quot;,height=426,width=626&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>关于特定平台的附加信息可查看对应 share 文档</p>
+
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> 5分钟封装一个主流社交平台工具函数!</li>
+        <li><strong>Author:</strong> 17</li>
+        <li><strong>Created at
+                :</strong> 2024-11-18 15:07:29</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2024-11-18 15:54:31
+            </li>
+        
+        <li>
+            <strong>Link:</strong> http://17mc.top/2024/11/18/wiki-share函数封装/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
 </div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/%E6%95%99%E7%A8%8B/">#教程</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2024/11/15/wiki-githubPages-1/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">5分钟部署一个Github Pages站点!</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        Comments
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://example.example.com',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          reaction: false,
+          requiredMeta: ['nick', 'mail'],
+          emoji: [],
+          
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">On this page</div>
+        <div class="page-title">5分钟封装一个主流社交平台工具函数!</div>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E5%88%86%E4%BA%AB"><span class="nav-text">1. 社交媒体分享</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93-API-%E9%9B%86%E5%90%88"><span class="nav-text">2. 社交媒体 API 集合</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%B7%A5%E5%85%B7%E5%87%BD%E6%95%B0%E5%B0%81%E8%A3%85"><span class="nav-text">3. 工具函数封装</span></a></li></ol>
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
 
                 
 
@@ -650,6 +837,27 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-side-tools-container">
