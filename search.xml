@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2024/11/11/hello-world/</url>
+    <content><![CDATA[<p>欢迎来到 <a href="/">17mc.top</a>!</p>
+]]></content>
+      <categories>
+        <category>site</category>
+      </categories>
+      <tags>
+        <tag>intro</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>5分钟部署一个Github Pages站点!</title>
     <url>/2024/11/15/wiki-githubPages-1/</url>
     <content><![CDATA[<h2 id="1-Github-Pages"><a href="#1-Github-Pages" class="headerlink" title="1. Github Pages"></a>1. Github Pages</h2><p>GitHub Pages 是一项静态站点托管服务，它直接从 GitHub 上的仓库获取 HTML、CSS 和 JavaScript 文件，（可选）通过构建过程运行文件，然后发布网站。 可以在 <a class="link"   href="https://github.com/collections/github-pages-examples" >GitHub Pages 示例集合 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 中看到 GitHub Pages 站点的示例。</p>
@@ -43,18 +55,6 @@
       </categories>
       <tags>
         <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2024/11/11/hello-world/</url>
-    <content><![CDATA[<p>欢迎来到 <a href="/">17mc.top</a>!</p>
-]]></content>
-      <categories>
-        <category>site</category>
-      </categories>
-      <tags>
-        <tag>intro</tag>
       </tags>
   </entry>
   <entry>
